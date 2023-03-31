@@ -1,0 +1,94 @@
+*{
+    box-sizing:border-box;
+  }
+  body{
+    background-image: url("https://wallpaperaccess.com/full/850891.jpg");
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-size: 100% 100%;   
+    overflow: hidden;
+  }
+  .search{
+    display:flex;
+    justify-content:center;
+    padding:1rem;
+    border: none;
+    outline: none;
+    text-align: left;
+
+  }
+  input::placeholder {
+    color: gray;
+  }
+  input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 50px;
+    border:1px solid #f48225b9;
+    box-shadow: #f48225b9 0px -1px 15px;
+
+  }
+  
+  .main{
+      width:500px;
+      box-shadow: #f48225b9 0px -1px 15px;
+      border-radius: 10px;
+     background-color: rgba(0,0,0,.5);
+  }
+  .head{
+  /*   border:solid red; */
+    text-align: center;
+    background-color: rgba(64	,96,	111, .3); 
+    margin:0.7rem 0rem;
+    padding:0.5rem;
+  }
+  .head h4{
+    margin:0rem;
+  }
+  .head h1{
+      margin:0rem;
+  }
+  .display{
+  /*   border:solid red; */
+    display:flex;
+  }
+  .display img{
+    width:200px;
+  }
+  .temp{
+  /*   border:solid red; */
+   margin:1rem; 
+  }
+  .temp .h{
+    display:inline;
+  }
+  .tempchild{
+      text-align: center;
+    
+  }
+  .days {
+    text-align: center;
+      margin:1rem 0rem;
+    padding:1rem;
+      background-color: rgba(64	,96,	111, .3);
+    display:flex;
+    justify-content:center;
+  }
+  .days div{
+  /*   border:solid red; */
+    margin:0rem 0.7rem;
+    font-size:1rem;
+  }
+  .nm p{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: bold;
+  }
+  
